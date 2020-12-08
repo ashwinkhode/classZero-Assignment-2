@@ -5,7 +5,6 @@ const chalk = require('chalk')
 const userName = rs.question(chalk.bgCyan('Enter your name\n'))
 console.log(chalk.green(`${userName}, Welcome to the Ultimate Dragon Ball Quiz`))
 
-//global variable
 let score = 0
 
 //List of questions
